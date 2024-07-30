@@ -21,6 +21,7 @@ The Epic Games Store Website Clone project replicates the look and feel of the o
 - **Product Cards:** Displays game cards with images, titles, and descriptions.
 - **Navigation:** Functional navigation bar similar to the Epic Games Store.
 - **Footer:** Replicates the footer with links and information.
+![Screenshot 2024-07-30 223553](https://github.com/user-attachments/assets/59eaf820-0a70-4d9b-81c1-e4c0783463a0)
 
 ## Installation
 
