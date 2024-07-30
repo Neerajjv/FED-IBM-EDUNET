@@ -2,6 +2,8 @@
 
 A replica of the Epic Games Store website created as part of the IBM Edunet Fed internship. This project demonstrates proficiency in HTML, CSS, and JavaScript by cloning the design and functionality of the Epic Games Store.
 
+![image](https://github.com/user-attachments/assets/b3d78fd8-b763-4d6d-8222-3b488c6d1b0d)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
