@@ -1,0 +1,280 @@
+.header {
+    width: 100%; height: auto;
+    background-color: rgb(42,42,42);
+    display: flex; justify-content: space-between;
+    color: #cdcccc;
+    font-size: x-small;
+}
+
+.header ul {
+    
+    display: flex; justify-content: center; align-items: center;
+    list-style-type: none;
+}
+
+.header ul li {
+    height: 100%;
+    padding: 20px 20px 20px 20px; 
+}
+
+.line-y-1 {
+    height: 30px; margin: 0 10px 0 10px;
+    border-left: 1px solid #cdcccc;
+}
+
+.download {
+    background-color: rgb(0, 115, 255); color: #d9eef3;
+}
+
+/* ================================================================================================================================== */
+
+.sticky {
+    display: flex;
+    color: #cdcccc;
+    font-size: smaller;
+}
+
+.sticky ul {
+    display: flex; justify-content: center; align-items: center;
+    list-style-type: none;
+}
+
+.sticky ul li {
+    margin: 30px 15px 30px 15px;
+}
+
+.sticky input {
+    width: 200px;
+    background-color: #202020;
+    border: none; border-radius: 20px;
+    padding: 12px;
+}
+
+/* ================================================================================================================================== */
+
+.jumbotron {
+    width: 100%; height: auto;
+    display: flex; justify-content: space-between;
+}
+
+.jumbotron-img {
+    width: 82%; height: 530px;
+    object-fit: cover; object-position: center;
+    position: relative;
+}
+
+.jumbotron-img img {
+    width: 100%; height: 100%;
+    border-radius: 15px;
+}
+
+.trans-background {
+    width: 100%; height: 100%; position: absolute; left: 0; bottom: 0;
+    background-image: linear-gradient(to right, rgb(0,0,0,0.8) , rgb(0,0,0,0)); z-index: 1;
+}
+
+.jumbotron-img-content {
+    position: absolute; left: 0; bottom: 0; margin: 35px; width: 35%;
+    z-index: 2;
+}
+
+.jumbotron-img-content p { line-height: 30px; font-weight: 600;}
+.jumbotron-img-content h5 { margin: 15px 0 15px 0;}
+
+.jic-button { display: flex; }
+.jic-button button {
+    border: none; border-radius: 5px;
+    padding: 15px; font-weight: 500;
+}
+.add-to-wishlist-btn { 
+    background-color: rgb(0,0,0,0); color: white; 
+    font-size: x-small; margin-left: 10px;
+}
+
+.jumbotron-content {
+    width: 15%; height: auto; padding: 20px 0 20px 0;
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+
+.jumbotron-content-detail {
+    display: flex; justify-content: space-between; 
+    align-items: center;
+}
+
+.jcd-img {
+    width: 25%; height: 60px;
+    object-fit: cover; object-position: center;
+}
+
+.jcd-img img { width: 100%; height: 100%; border-radius: 10px;}
+
+.jcd-title {
+    font-size: medium; width: 65%;
+}
+
+/* ================================================================================================================================== */
+
+.gos-header {
+    display: flex; justify-content: space-between; align-items: center;
+    background-color: rgb(18,18,17); font-size: medium; font-weight: 600;
+    margin: 30px 0 20px 0;
+}
+
+.gos-header div { display: flex; flex-direction: column;}
+.gos-header ul {list-style-type: none; display: flex;}
+.gos-header ul li {
+    background-color: rgb(42,42,42);
+    border-radius: 20px; padding: 10px 15px 10px 15px;  margin-left: 20px;
+}
+
+.gos-body {
+    display: flex; justify-content: space-between;
+}
+
+.card-games-on-sale {
+    width: 18%; 
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+
+.cgos-header { width: 100%; object-fit: cover; object-position: center; }
+.cgos-header img { width: 100%; height: 300px;}
+
+.cgos-body { flex-grow: 1; }
+.cgos-body h6 { font-size: xx-small; margin: 10px 0 10px 0; color: #cdcccc;}
+.cgos-body h4 { font-size: medium; }
+
+.cgos-footer {
+    display: flex; justify-content: space-between; align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.cgos-footer button {
+    background-color: rgb(0, 115, 255); padding: 5px 15px 5px 15px;
+    border-radius: 5px; color: white; font-size: x-small;
+    height: 25px; text-align: center; border-style: none;
+}
+
+.cgos-footer div { text-align: end; }
+
+.price-1 { font-size: small; text-decoration: line-through; }
+.price-2 { font-size: medium; font-weight: 700;}
+
+/* ================================================================================================================================== */
+
+.recomen-games-body { width: 100%; display: flex; justify-content: space-between; }
+
+.card-recomen-games {width: 32%; display: flex; flex-direction: column; justify-content: space-between;}
+
+.crg-header { object-fit: cover; object-position: center;}
+.crg-header img { width: 100%;  height: 100%; border-radius: 15px;}
+
+.crg-body {  margin: 10px 0 10px 0; }
+.crg-body > * {margin-top: 15px;}
+.crg-body p { color: #cdcccc; font-size: small; line-height: 20px;}
+.crg-body h2 {margin-top: 30px; font-size: larger;}
+
+/* ================================================================================================================================== */
+
+.free-games { width: 100%; padding: 10px 30px 10px 30px; background-color: rgb(81, 81, 81, 0.5); }
+.free-games > * { margin: 20px 0 20px 0; }
+
+.fg-header { display: flex; justify-content: space-between; }
+.fg-header button {
+    background-color: rgb(32, 32, 32 ,0); border: 1px solid #cdcccc;
+    padding: 10px 20px 10px 20px; border-radius: 5px; color: white;
+}
+
+.fg-body { display: flex; justify-content: space-between;}
+.fg-card { width: 24%;}
+
+.fgc-header { 
+    position: relative; width: 100%; height: 350px; 
+    object-fit: cover; object-position: center;
+    }
+.fgc-header img { width: 100%; height: 100%; border-radius: 5px;}
+.fgc-header .label { 
+    position: absolute; bottom: 0; background-color: rgb(86, 86, 253); width: 100%;
+    text-align: center; font-size: small; font-weight: 600; padding: 5px;
+    border-radius: 0 0 5px 5px;
+ }
+.fgc-body > * { margin-top: 5px; font-size: small; }
+.fgc-body p {color: #a1a1a1;}
+
+/* ================================================================================================================================== */
+
+.games-list-section { width: 100%; display: flex; justify-content: space-between;}
+
+.line-y-2 {
+    margin: 0; padding: 0;
+    background-color: rgb(91, 91, 91, 0.5); width: 1px;
+}
+
+.gls-container { width: 30%; display: flex; flex-direction: column; justify-content: space-between;}
+
+.glsc-header {display: flex; width: 100%; justify-content: space-between; align-items: center; }
+.glsc-header h5 {font-size: larger; font-weight: 400;}
+.glsc-header button {
+    background-color: rgb(32, 32, 32 ,0); border: 1px solid #cdcccc;
+    padding: 10px 20px 10px 20px; border-radius: 5px; color: white;
+    font-size: xx-small;
+}
+
+.glsc-body {display: flex; flex-direction: column;}
+
+
+.gls-card {width: 100%; display: flex; justify-content: space-between; 
+    margin: 10px 0 10px 0; align-items: center;
+}
+
+.glsc-left {width: 20%;}
+.glsc-left img { width: 100%; border-radius: 5px;}
+
+.glsc-right {
+    width: 75%; display: flex; flex-direction: column; justify-content: space-between;
+    height: auto;
+}
+.glsc-right > * {color: #cdcccc; margin: 5px 0 5px 0;}
+.glsc-right h6 { 
+    background-color: #202020; text-align: center; padding: 5px; 
+    font-size: xx-small; border-radius: 5px;
+}
+.glsc-right p {font-size: small;}
+
+/* ================================================================================================================================== */
+
+.footer { background-color: #202020; padding: 50px 0 50px 0; font-size: small; }
+.footer ul {list-style-type: none;}
+.footer h5 {font-weight: 800; color: #7c7c7c; font-size: small;}
+
+.footer-content {
+    margin: auto; width: 90%;
+}
+
+.footer-section-1 { display: flex; width: 100%; justify-content: space-between; }
+.footer-section-1 ul {display: flex; }
+.footer-section-1 ul li {margin-right: 20px; font-size: medium; font-weight: 600;}
+.footer-section-1 button { 
+    background-color: rgb(0, 115, 255, 0); border: 1px solid white;
+    color: white; padding: 10px;
+}
+
+.footer-section-2 {}
+.fs2-body { display: flex;}
+.fs2-body ul {margin-right: 20px;}
+.fs2-body ul li {margin: 10px 20px 10px 0;}
+
+.footer-section-3 {}
+.fs3-body { display: flex;}
+.fs3-body ul {margin-right: 20px;}
+.fs3-body ul li {margin: 10px 20px 10px 0;}
+
+.line-x {
+    height: 1px; width: 100%; background-color: rgb(105, 105, 105);
+    margin: 20px 0;
+}
+
+.footer-section-4 { width: 50%; line-height: 20px; color: #cdcccc; font-size: smaller;}
+
+.footer-section-5 { display: flex; justify-content: space-between; font-size: smaller; }
+.footer-section-5 ul {display: flex;}
+.footer-section-5 ul li {margin-right: 20px;}

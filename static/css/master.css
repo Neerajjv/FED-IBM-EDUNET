@@ -1,0 +1,113 @@
+@import url(layout.css);
+@import url(component.css);
+
+*, *::before, *::after {
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+html {
+    scroll-behavior: auto; 
+  }
+body {
+    background-color: rgb(18,18,17);
+    color: white;
+    font-family: Montserrat;
+}
+
+
+.jumbotron-img img {
+   
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; /* Add transition */
+}
+
+.jumbotron-img:hover img {
+    transform: scale(1.1); /* Zoom on hover */
+}
+
+.jumbotron-img-content {
+    position: absolute;
+  
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Add transition */
+}
+
+.jumbotron-img:hover .jumbotron-img-content {
+    opacity: 1; /* Fade in on hover */
+}
+
+
+
+
+.jumbotron-img img {
+   
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; /* Add transition */
+}
+
+.jumbotron-img:hover img {
+    transform: scale(1.1); /* Zoom on hover */
+}
+
+.jumbotron-img-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out; /* Add transition */
+}
+
+.jumbotron-img:hover .jumbotron-img-content {
+    opacity: 1; /* Fade in on hover */
+}
+
+/* Add these transitions to ALL classes that need hover effects */
+
+/* GENERAL TRANSITIONS */
+.gls-card, .card-games-on-sale, .card-recomen-games { 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add transition */
+}
+
+/* HOVER EFFECTS */
+
+/* Games Card Hover */
+.gls-card:hover {
+    transform: translateY(-5px); /* Move slightly upwards on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Games On Sale Card Hover */
+.card-games-on-sale:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Recomended Games Card Hover */
+.card-recomen-games:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.fg-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* ... Your other CSS ... */
+
+.jcd-title {
+    transition: color 0.3s ease-in-out;  /* Add a color transition */
+}
+
+.jcd-title:hover {
+    color: #ff0000; /* Example: Change color to red on hover */
+}
